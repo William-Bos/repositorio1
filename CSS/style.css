@@ -18,7 +18,7 @@ body {
     overflow-x: hidden;
     width: 100%;
     padding: 0%;
-    
+
 }
 
 
@@ -39,7 +39,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
-    padding: 10px 5%;
+
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
@@ -90,15 +90,13 @@ header.show {
 .roteiros {
     font-family: cursive;
     text-align: center;
-    margin: 60px auto;
     color: #ffffff;
-    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .roteiros h2 {
-    margin-bottom: 20px;
+
     font-size: 2.5rem;
 }
 
@@ -194,7 +192,6 @@ header.show {
     text-align: center;
     margin: 60px auto;
     color: #ffffff;
-    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 1200px;
@@ -246,12 +243,13 @@ header.show {
         align-items: center;
     }
 }
+
 .caixa-formatada {
     font-size: 1.5rem;
     text-align: center;
     margin: 60px auto;
     color: #ffffff;
-    padding: 40px;
+
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 1200px;
@@ -297,7 +295,8 @@ header.show {
     background-repeat: no-repeat;
     width: 100%;
     max-width: 100vw;
-    height: 50vh; /* 50% da altura da tela */
+    height: 50vh;
+    /* 50% da altura da tela */
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -305,18 +304,20 @@ header.show {
 /* Ajuste para telas menores (smartphones) */
 @media (max-width: 768px) {
     .imagem-principal {
-        height: 25vh; /* Reduz a altura em telas pequenas */
+        height: 25vh;
+        /* Reduz a altura em telas pequenas */
         margin-top: 30px;
         margin-bottom: 30px;
-        
+
     }
-   
+
 }
 
 /* Ajuste para telas muito pequenas (até 480px) */
 @media (max-width: 480px) {
     .imagem-principal {
-        height: 20vh; /* Reduz mais a altura */
+        height: 20vh;
+        /* Reduz mais a altura */
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -578,6 +579,7 @@ button:hover {
     color: #333;
     text-align: center;
 }
+
 .footer {
     background-color: #1c581f;
     background-size: cover;
@@ -591,20 +593,25 @@ button:hover {
 
 .footer-content {
     display: flex;
-    justify-content: space-between; /* Mantém os itens distribuídos */
+    justify-content: space-between;
+    /* Mantém os itens distribuídos */
     align-items: center;
-    flex-wrap: nowrap; /* Impede que os elementos quebrem para outra linha */
+    flex-wrap: nowrap;
+    /* Impede que os elementos quebrem para outra linha */
     max-width: 1200px;
     margin: 0 auto;
-    gap: 20px; /* Evita que os elementos fiquem muito grudados */
+    gap: 20px;
+    /* Evita que os elementos fiquem muito grudados */
     overflow: hidden;
 }
 
 .footer-section {
     flex: 1;
     padding: 10px;
-    min-width: 150px; /* Reduzindo para caber sempre na tela */
-    max-width: 400px; /* Evita que um item fique muito maior que o outro */
+    min-width: 150px;
+    /* Reduzindo para caber sempre na tela */
+    max-width: 400px;
+    /* Evita que um item fique muito maior que o outro */
 }
 
 .footer-section h3 {
@@ -655,12 +662,14 @@ footer {
 /* Garantindo que mesmo em telas menores os itens fiquem lado a lado */
 @media (max-width: 768px) {
     .footer-content {
-        justify-content: space-between; /* Mantém alinhado */
+        justify-content: space-between;
+        /* Mantém alinhado */
         gap: 10px;
     }
 
     .footer-section {
-        min-width: 120px; /* Garante que os itens não quebrem */
+        min-width: 120px;
+        /* Garante que os itens não quebrem */
     }
 
     .footer-logo {
