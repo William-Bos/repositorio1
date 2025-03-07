@@ -10,7 +10,7 @@
 
 
 body {
-    font-family: "Piedra", serif;
+    font-family: Arial, Helvetica, sans-serif, serif;
     color: #000000;
     background-image: url(Fundo.png);
     margin: 0;
@@ -88,7 +88,7 @@ header.show {
 
 
 .roteiros {
-    font-family: cursive;
+    
     text-align: center;
     color: #ffffff;
     border-radius: 10px;
@@ -96,12 +96,13 @@ header.show {
 }
 
 .roteiros h2 {
-
+    
     font-size: 2.5rem;
 }
 
 .roteiros-container {
     display: flex;
+    
     justify-content: center;
     width: 100%;
     max-width: 1100px;
@@ -114,7 +115,6 @@ header.show {
 .roteiros .miniatura {
     width: 300px;
     height: 200px;
-
     transition: transform 0.3s;
     cursor: pointer;
     object-fit: cover;
@@ -351,7 +351,7 @@ header.show {
 
 
 .depoimentos {
-    font-family: cursive;
+    
     text-align: center;
     max-width: 1200px;
     padding: 40px;
@@ -448,7 +448,7 @@ button:hover {
 
 
 .tituloperguntas {
-    font-family: cursive;
+    
     font-size: 24px;
     margin-bottom: 10px;
 }
